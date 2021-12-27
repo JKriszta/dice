@@ -34,9 +34,6 @@ function roll() {
 		document.getElementById('roll').disabled = true
 		restartButton.style.visibility = "visible"
 	}
-	
-
-
 
 	if (randomNumber === 1) {
 		imageDiv.innerHTML = `<img src="./svg/dice1.svg" alt="dice1" width="100">`;
