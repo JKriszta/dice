@@ -37,33 +37,33 @@ function roll() {
 
 	if (randomNumber === 1) {
 		imageDiv.innerHTML = `<img src="./svg/dice1.svg" alt="dice1" width="100">`;
-		counterDiv.innerHTML = `<p>Ez a(z) ${clicks}. dobás.</p>`;
+		counterDiv.innerHTML = `<p>This was the ${clicks}. roll.</p>`;
 		list.append(el);
 
 	}
 	else if (randomNumber === 2) {
 		imageDiv.innerHTML = `<img src="./svg/dice2.svg" alt="dice2" width="100">`;
-		counterDiv.innerHTML = `<p>Ez a(z) ${clicks}. dobás.</p>`;
+		counterDiv.innerHTML = `<p>This was the ${clicks}. roll.</p>`;
 		list.append(el);
 	}
 	else if (randomNumber === 3) {
 		imageDiv.innerHTML = `<img src="./svg/dice3.svg" alt="dice3" width="100">`;
-		counterDiv.innerHTML = `<p>Ez a(z) ${clicks}. dobás.</p>`;
+		counterDiv.innerHTML = `<p>This was the ${clicks}. roll.</p>`;
 		list.appendChild(el);
 	}
 	else if (randomNumber === 4) {
 		imageDiv.innerHTML = `<img src="./svg/dice4.svg" alt="dice4" width="100">`;
-		counterDiv.innerHTML = `<p>Ez a(z) ${clicks}. dobás.</p>`;
+		counterDiv.innerHTML = `<p>This was the ${clicks}. roll.</p>`;
 		list.appendChild(el);
 	}
 	else if (randomNumber === 5) {
 		imageDiv.innerHTML = `<img src="./svg/dice5.svg" alt="dice5" width="100">`;
-		counterDiv.innerHTML = `<p>Ez a(z) ${clicks}. dobás.</p>`;
+		counterDiv.innerHTML = `<p>This was the ${clicks}. roll.</p>`;
 		list.appendChild(el);
 	}
 	else if (randomNumber === 6) {
 		imageDiv.innerHTML = `<img src="./svg/dice6.svg" alt="dice6" width="100">`;
-		counterDiv.innerHTML = `<p>Ez a(z) ${clicks}. dobás.</p>`;
+		counterDiv.innerHTML = `<p>This was the ${clicks}. roll.</p>`;
 		list.appendChild(el);
 	}
 
