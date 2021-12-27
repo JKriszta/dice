@@ -23,8 +23,11 @@ function restart() {
 
 function roll() {
 
+	randomNumber = Math.floor(Math.random() * (7-1) +1);
+	console.log("roll: " + clicks + " value: " + randomNumber)
+
 	let el = document.createElement('li')
-	el.innerHTML = `${clicks}`;
+	el.innerHTML = `${randomNumber}`;
 
 	clicks += 1;
 	if (clicks === 5) {
@@ -32,8 +35,7 @@ function roll() {
 		restartButton.style.visibility = "visible"
 	}
 	
-	randomNumber = Math.floor(Math.random() * (7-1) +1);
-	console.log("roll: " + clicks + " value: " + randomNumber)
+
 
 
 	if (randomNumber === 1) {

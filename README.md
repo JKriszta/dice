@@ -1,1 +1,3 @@
-# dice
+---
+permalink: /index.html
+---
